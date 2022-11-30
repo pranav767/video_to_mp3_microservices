@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: sweasytech/gateway
+          image: r3alj1nx/gateway
           envFrom:
             - configMapRef:
                 name: gateway-configmap
