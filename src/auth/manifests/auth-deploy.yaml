@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: sweasytech/auth
+          image: r3alj1nx/auth
           ports:
             - containerPort: 5000
           envFrom:
